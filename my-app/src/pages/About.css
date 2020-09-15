@@ -1,0 +1,27 @@
+Container{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+footer a{
+    color: #ffff;
+    padding-left: 5px;
+    padding-bottom: 10px;
+}
+
+footer nav a:hover{
+    border-bottom: 2px solid aqua;
+    border-left: 2px solid aqua;
+    border-right: 2px solid aqua;
+    border-radius: 100%;
+}
